@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Veja seu Destino</title>
+</head>
+<body>
+    <div class="conteiner">
+        <img class="img" src="/assets/boladecristal.png" alt="Imagem de uma bola de cristal">
+        
+        <div class="pai-textos">
+            <h1>Vou revelar seu destino</h1>
+            <p>Por favor, faça a sua pergunta.</p>
+        </div>
+        
+        <div class="pai-input-button">
+            <div class="input-group">
+                <input required="" type="text" name="text" autocomplete="off" class="input">
+                <label class="user-label">sua pergunta</label>
+              </div>
+            <button id="btn"onclick="fazerPergunta()" class="button">Fazer pergunta</button>
+            <h3 id="pergunta" ></h3>
+            <p id="resposta"></p>
+        </div>
+    </div>
+    <div class="conteiner-resposta">
+        
+    </div>
+    
+</body>
+<script src="javascript.js"></script>
+
+</html>
